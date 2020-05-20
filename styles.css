@@ -5,6 +5,7 @@ body {
     color: black;
 }
 
+
 /* Navigation */
 
 .nav {
@@ -50,3 +51,22 @@ body {
   height: 100vh;
   background: azure;
 }
+
+/* Projects */
+
+.projects-header {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+    width: 100%;  
+}
+
+.project-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-tile {
+
+}
+
