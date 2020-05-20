@@ -1,0 +1,52 @@
+/* Global */
+
+body {
+    background-color: azure;
+    color: black;
+}
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:black;
+    color: white;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+
+.nav-list a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.nav-list a:hover {
+    color:black;
+    background: white;
+    font-style: italic;
+}
+
+/* Main */
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  height: 100vh;
+  background: azure;
+}
