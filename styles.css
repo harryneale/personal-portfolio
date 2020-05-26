@@ -144,14 +144,6 @@ img {
 .btn {
     display: inline-block;
     padding: 1.5rem 1rem;
-<<<<<<< HEAD
-    background-color: #6096ba;
-    border-radius: 5px;
-    font-weight: 600;
-}
-
-.btn:hover {
-=======
     border-radius: 5px;
 }
 
@@ -164,13 +156,11 @@ img {
 }
 
 .btn-github:hover {
->>>>>>> portfolio
     background-color: white;
     color: #6096ba;  
     transition: 250ms
 }
 
-<<<<<<< HEAD
 /* Icons */
 =======
 .social-link {
@@ -222,6 +212,14 @@ img {
     h2 {
         font-size: 0.75rem;
     }
+}
+
+<<<<<<< HEAD
+>>>>>>> portfolio
+=======
+.hi {
+    font-size: 20px;
+    color: blue;
 }
 
 >>>>>>> portfolio
