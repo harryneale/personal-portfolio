@@ -4,15 +4,16 @@
     <head>
         <title>Harry Neale Portfolio</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="../../../../../../CSS/css/all.css">
     </head>
  
     <body>
 
         <nav id="navbar" class="nav">
             <ul class="nav-list">
+                <li><a href="#welcome-section">Welcome</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#social">Social</a></li>
+                <li><a href="#contact">Social</a></li>
             </ul>
         </nav>
     
@@ -25,7 +26,8 @@
 
         <section id="projects" class="project-section">
 
-            <h2 class="projects-header" id="projects">Check out some of my projects</h2>
+        <h2 class="projects-header" id="projects">Check out some of my Web Dev projects</h2>
+        
 
             <div class="project-grid">
                 <a class="project-tile" href="https://harryneale.github.io/hamilton-tribute/" target="_blank">
@@ -50,17 +52,34 @@
                 </p>
                 </a>
             </div>
+
+            <a id="profile-link" class="btn btn-github" href="https://github.com/harryneale" target="_blank">
+                <i class="fab fa-github"></i>
+                View my Github
+            </a>
             
         </section>
 
-        <section id="about">
-            <p id="about">About</p>
-        </section>
+        <section class="social">
 
-        <section id="social">
-            <p>Link to Github</p>
-            <p>Link to Twitter</p>
-            <p>Link to LinkedIn</p>
+            <div class="social-header">
+                <h2 id="contact">Get in contact</h2>
+            </div>
+
+            <div class="contact-links">
+            <a class="btn social-link" href="https://twitter.com/HWN_Dev" target="_blank">
+                <i class="fab fa-twitter"></i>
+            Twitter
+            </a>
+            <a class="social-link" href="mailto:hwn.dev@gmail.com">
+                <i class="fas fa-envelope-open-text"></i>
+            Email
+            </a>
+            <a class="social-link" href="https://uk.linkedin.com/in/harry-neale-092976125" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            Linked In
+        </a>
+    </div>
         </section>
         
     </body>
